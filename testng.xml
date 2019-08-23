@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="LoginSuite" parallel="none">
-  <test name="Sanity Testing">
+  <test name="LoginScript">
     <classes>
       <class name="com.akshay.automation.TC_Login"/>
       <class name="com.akshay.automation.BaseClass"/>
