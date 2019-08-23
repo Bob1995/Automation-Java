@@ -1,5 +1,6 @@
 package com.akshay.automation;
 
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -32,11 +33,21 @@ public class BaseClass {
 
 	@BeforeMethod
 	public void validateBeforeMethod() {
-		System.out.println(" inside validate before Method");
+		System.out.println("inside validate before Method");
 	}
 
 	@AfterMethod
 	public void validateAfterMethod() {
 		System.out.println("inside validate after method");
+	}
+
+	@BeforeMethod
+	public void validateBeforeClass() {
+		System.out.println("inside validate before class");
+	}
+
+	@AfterClass
+	public void validateAfterClass() {
+		System.out.println("Inside validate after class");
 	}
 }
