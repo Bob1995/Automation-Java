@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60175" started-at="2019-08-23T07:55:21Z" finished-at="2019-08-23T07:56:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60175" started-at="2019-08-23T07:55:21Z" finished-at="2019-08-23T07:56:21Z">
+      <class name="com.akshay.automation.TC_Login">
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="preSetUp" is-config="true" duration-ms="3368" started-at="2019-08-23T13:25:21Z" finished-at="2019-08-23T13:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="tc01()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="tc01" duration-ms="4008" started-at="2019-08-23T13:25:24Z" finished-at="2019-08-23T13:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="validateBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-23T13:25:24Z" finished-at="2019-08-23T13:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBeforeMethod -->
+        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="validateAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-23T13:25:28Z" finished-at="2019-08-23T13:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterMethod -->
+        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="validateBeforeMethod" is-config="true" duration-ms="1" started-at="2019-08-23T13:25:28Z" finished-at="2019-08-23T13:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBeforeMethod -->
+        <test-method status="PASS" signature="tc02()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="tc02" duration-ms="52091" started-at="2019-08-23T13:25:28Z" finished-at="2019-08-23T13:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="validateAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-23T13:26:20Z" finished-at="2019-08-23T13:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.akshay.automation.TC_Login@d7b1517]" name="tearDown" is-config="true" duration-ms="689" started-at="2019-08-23T13:26:20Z" finished-at="2019-08-23T13:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.akshay.automation.TC_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
