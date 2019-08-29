@@ -1,53 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34315" started-at="2019-08-23T10:58:00Z" finished-at="2019-08-23T10:58:34Z">
+  <suite name="Default suite" duration-ms="72331" started-at="2019-08-29T13:15:49Z" finished-at="2019-08-29T13:17:01Z">
     <groups>
     </groups>
-    <test name="Sanity Testing" duration-ms="34315" started-at="2019-08-23T10:58:00Z" finished-at="2019-08-23T10:58:34Z">
-      <class name="com.akshay.automation.TC_Login">
-        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="preSetUp" is-config="true" duration-ms="3605" started-at="2019-08-23T16:28:00Z" finished-at="2019-08-23T16:28:03Z">
+    <test name="Default test" duration-ms="72331" started-at="2019-08-29T13:15:49Z" finished-at="2019-08-29T13:17:01Z">
+      <class name="com.akshay.automation.testcases.TestCaseLogin">
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="preSetUp" is-config="true" duration-ms="6477" started-at="2019-08-29T18:45:49Z" finished-at="2019-08-29T18:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetUp -->
-        <test-method status="PASS" signature="validateBeforeClass()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateBeforeClass" is-config="true" duration-ms="0" started-at="2019-08-23T16:28:03Z" finished-at="2019-08-23T16:28:03Z">
+        <test-method status="PASS" signature="validateBeforeClass()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeClass" is-config="true" duration-ms="0" started-at="2019-08-29T18:45:55Z" finished-at="2019-08-29T18:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBeforeClass -->
-        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateBeforeMethod" is-config="true" duration-ms="1" started-at="2019-08-23T16:28:03Z" finished-at="2019-08-23T16:28:03Z">
+        <test-method status="PASS" signature="tc01_validateLogin()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="tc01_validateLogin" duration-ms="7105" started-at="2019-08-29T18:45:55Z" finished-at="2019-08-29T18:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_validateLogin -->
+        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-29T18:45:55Z" finished-at="2019-08-29T18:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBeforeMethod -->
-        <test-method status="PASS" signature="tc01()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="tc01" duration-ms="4917" started-at="2019-08-23T16:28:03Z" finished-at="2019-08-23T16:28:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01 -->
-        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-23T16:28:08Z" finished-at="2019-08-23T16:28:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAfterMethod -->
-        <test-method status="PASS" signature="validateBeforeClass()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateBeforeClass" is-config="true" duration-ms="0" started-at="2019-08-23T16:28:08Z" finished-at="2019-08-23T16:28:08Z">
+        <test-method status="PASS" signature="validateBeforeClass()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeClass" is-config="true" duration-ms="3" started-at="2019-08-29T18:46:02Z" finished-at="2019-08-29T18:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBeforeClass -->
-        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-23T16:28:08Z" finished-at="2019-08-23T16:28:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateBeforeMethod -->
-        <test-method status="PASS" signature="tc02()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="tc02" duration-ms="25059" started-at="2019-08-23T16:28:08Z" finished-at="2019-08-23T16:28:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc02 -->
-        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="validateAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-23T16:28:33Z" finished-at="2019-08-23T16:28:33Z">
+        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-29T18:46:02Z" finished-at="2019-08-29T18:46:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAfterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.akshay.automation.TC_Login@47f37ef1]" name="tearDown" is-config="true" duration-ms="717" started-at="2019-08-23T16:28:33Z" finished-at="2019-08-23T16:28:34Z">
+        <test-method status="PASS" signature="tc03()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="tc03" duration-ms="47925" started-at="2019-08-29T18:46:02Z" finished-at="2019-08-29T18:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-29T18:46:02Z" finished-at="2019-08-29T18:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBeforeMethod -->
+        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateAfterMethod" is-config="true" duration-ms="1" started-at="2019-08-29T18:46:50Z" finished-at="2019-08-29T18:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterMethod -->
+        <test-method status="PASS" signature="validateBeforeClass()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeClass" is-config="true" duration-ms="1" started-at="2019-08-29T18:46:50Z" finished-at="2019-08-29T18:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBeforeClass -->
+        <test-method status="PASS" signature="validateBeforeMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateBeforeMethod" is-config="true" duration-ms="0" started-at="2019-08-29T18:46:50Z" finished-at="2019-08-29T18:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBeforeMethod -->
+        <test-method status="FAIL" signature="tc04()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="tc04" duration-ms="10076" started-at="2019-08-29T18:46:50Z" finished-at="2019-08-29T18:47:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ATMECSINLT-293', ip: '55.55.55.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\AKSHAY~1.JAD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ad7ee7fd25b7825f66979c3e5430728
+*** Element info: {Using=id, value=userName}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ATMECSINLT-293', ip: '55.55.55.230', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\AKSHAY~1.JAD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ad7ee7fd25b7825f66979c3e5430728
+*** Element info: {Using=id, value=userName}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.akshay.automation.pageobjects.LoginPage.setUserName(LoginPage.java:32)
+	at com.akshay.automation.testcases.TestCaseLogin.tc04(TestCaseLogin.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="validateAfterMethod()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="validateAfterMethod" is-config="true" duration-ms="0" started-at="2019-08-29T18:47:00Z" finished-at="2019-08-29T18:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.akshay.automation.testcases.TestCaseLogin@246ae04d]" name="tearDown" is-config="true" duration-ms="719" started-at="2019-08-29T18:47:00Z" finished-at="2019-08-29T18:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.akshay.automation.TC_Login -->
-    </test> <!-- Sanity Testing -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.akshay.automation.testcases.TestCaseLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

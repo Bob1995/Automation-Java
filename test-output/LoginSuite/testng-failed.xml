@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginSuite]" parallel="none">
+  <test name="LoginScript(failed)" parallel="none">
+    <classes>
+      <class name="com.akshay.automation.TC_Login">
+        <methods>
+          <include name="validateBeforeClass"/>
+          <include name="preSetUp"/>
+          <include name="tearDown"/>
+          <include name="validateBeforeMethod"/>
+          <include name="tc02"/>
+          <include name="validateAfterMethod"/>
+        </methods>
+      </class> <!-- com.akshay.automation.TC_Login -->
+    </classes>
+  </test> <!-- LoginScript(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

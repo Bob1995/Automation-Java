@@ -1,4 +1,4 @@
-package com.akshay.automation;
+package com.akshay.automation.setup;
 
 import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +23,10 @@ public class BaseClass {
 		} else {
 			System.out.println("chrome driver already instantiated!!");
 		}
+
+		System.out.println("Inside Tc01");
+		webDriver.get("https://learning-qa.citrix.com/#/learning/landing");
+
 	}
 
 	@AfterTest
