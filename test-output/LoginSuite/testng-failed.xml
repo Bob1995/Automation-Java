@@ -3,16 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [LoginSuite]" parallel="none">
   <test name="LoginScript(failed)" parallel="none">
     <classes>
-      <class name="com.akshay.automation.TC_Login">
+      <class name="com.akshay.automation.setup.BaseClass">
         <methods>
-          <include name="validateBeforeClass"/>
-          <include name="preSetUp"/>
           <include name="tearDown"/>
-          <include name="validateBeforeMethod"/>
-          <include name="tc02"/>
-          <include name="validateAfterMethod"/>
+          <include name="preSetUp"/>
         </methods>
-      </class> <!-- com.akshay.automation.TC_Login -->
+      </class> <!-- com.akshay.automation.setup.BaseClass -->
+      <class name="com.akshay.automation.testcases.TestCaseLoginPageFactory">
+        <methods>
+          <include name="tc04"/>
+        </methods>
+      </class> <!-- com.akshay.automation.testcases.TestCaseLoginPageFactory -->
     </classes>
   </test> <!-- LoginScript(failed) -->
 </suite> <!-- Failed suite [LoginSuite] -->

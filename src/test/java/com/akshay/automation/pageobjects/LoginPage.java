@@ -2,9 +2,6 @@ package com.akshay.automation.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import com.akshay.automation.setup.BaseClass;
 
@@ -15,7 +12,7 @@ public class LoginPage extends BaseClass {
 	By loginButton = By.cssSelector("[value='Sign in']");
 
 	public LoginPage(WebDriver webDriver) {
-		this.webDriver = webDriver;
+		this.webDriver=webDriver;
 	}
 
 	public void setUserName(String uName) {

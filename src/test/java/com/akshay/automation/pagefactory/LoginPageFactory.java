@@ -19,17 +19,17 @@ public class LoginPageFactory extends BaseClass {
 	WebElement loginButton_pageFactory;
 
 	public LoginPageFactory(WebDriver webDriver) {
-		this.webDriver = webDriver;
+		this.webDriver=webDriver;
 		PageFactory.initElements(webDriver, this);
 	}
 
 	public void setUserName_pageFactory(String uName) {
-		userName_pageFactory.sendKeys("s_bhagyalj");
+		userName_pageFactory.sendKeys(uName);
 	}
 
 	public void setPassword_pageFactory(String pwd) {
 
-		password_pageFactory.sendKeys("Password1!");
+		password_pageFactory.sendKeys(pwd);
 	}
 
 	public void clickLogin_pageFactory() {

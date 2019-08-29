@@ -10,12 +10,13 @@ import com.akshay.automation.setup.BaseClass;
 
 import junit.framework.Assert;
 
-public class TestCaseLogin extends BaseClass {
+public class TestCaseLoginPageObject extends BaseClass {
 
-	private LoginPage loginPage = new LoginPage(webDriver);
+	private LoginPage loginPage ;
 
+	
 	@Test
-	public void tc01_validateLogin() throws Exception {
+	public void tc01() throws Exception {
 		System.out.println("Inside Tc02");
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		webDriver.findElement(By.id("landingLogin")).click();
@@ -24,20 +25,15 @@ public class TestCaseLogin extends BaseClass {
 	}
 
 	@Test
-	public void tc03() throws Exception {
-		webDriver.findElement(By.id("userName")).sendKeys("s_bhagyalj");
-		webDriver.findElement(By.id("password")).sendKeys("Password1!");
-		webDriver.findElement(By.cssSelector("[value='Sign in']")).click();
-		Thread.sleep(10000);
-	}
-
-	@Test
-	public void tc04() throws Exception {
+	public void tc02() throws Exception {
+		System.out.println("Inside Pageobject");
+		loginPage = new LoginPage(webDriver);
 		loginPage.setUserName("s_bhagyalj");
 		loginPage.setPassword("Password1!");
 		loginPage.clickLogin();
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		Assert.assertEquals("Citrix Education", webDriver.getTitle());
 	}
 
+	
 }
