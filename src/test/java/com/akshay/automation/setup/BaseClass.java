@@ -12,7 +12,6 @@ public class BaseClass {
 	
 	@BeforeTest
 	public void preSetUp() {
-		System.out.println("Inside BeforeTest");
 		if (webDriver == null) {
 			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 			webDriver = new ChromeDriver();

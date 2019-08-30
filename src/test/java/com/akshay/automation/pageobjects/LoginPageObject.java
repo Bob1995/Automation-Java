@@ -5,13 +5,13 @@ import org.openqa.selenium.WebDriver;
 
 import com.akshay.automation.setup.BaseClass;
 
-public class LoginPage extends BaseClass {
+public class LoginPageObject extends BaseClass {
 
 	By userName = By.id("userName");
 	By password = By.id("password");
 	By loginButton = By.cssSelector("[value='Sign in']");
 
-	public LoginPage(WebDriver webDriver) {
+	public LoginPageObject(WebDriver webDriver) {
 		this.webDriver=webDriver;
 	}
 

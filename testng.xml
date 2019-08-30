@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="LoginSuite" parallel="none">
-	<test name="LoginScriptPageObject">
-		<classes>
-			<class name="com.akshay.automation.setup.BaseClass" />
-			<class name="com.akshay.automation.TestCaseLoginPageObject" />
-
-
-		</classes>
-	</test> <!-- Test -->
-
-	<test name="LoginScriptPageFactory">
-		<classes>
-			<class name="com.akshay.automation.setup.BaseClass" />
-			<class name="com.akshay.automation.testcases.TestCaseLoginPageFactory" />
-		</classes>
-	</test> <!-- Test -->
-
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.akshay.automation.setup.BaseClass"/>
+      <class name="com.akshay.automation.testcases.pageobjects.TC_LoginPageObject"/>
+      <class name="com.akshay.automation.testcases.pagefactory.TC_LoginPageFactory"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

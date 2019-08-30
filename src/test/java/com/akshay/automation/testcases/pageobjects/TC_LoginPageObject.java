@@ -1,23 +1,23 @@
-package com.akshay.automation.testcases;
+package com.akshay.automation.testcases.pageobjects;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import com.akshay.automation.pageobjects.LoginPage;
+import com.akshay.automation.pageobjects.LoginPageObject;
 import com.akshay.automation.setup.BaseClass;
 
 import junit.framework.Assert;
 
-public class TestCaseLoginPageObject extends BaseClass {
+public class TC_LoginPageObject extends BaseClass {
 
-	private LoginPage loginPage ;
+	private LoginPageObject loginPageObject ;
 
 	
 	@Test
 	public void tc01() throws Exception {
-		System.out.println("Inside Tc02");
+		
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		webDriver.findElement(By.id("landingLogin")).click();
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -26,11 +26,11 @@ public class TestCaseLoginPageObject extends BaseClass {
 
 	@Test
 	public void tc02() throws Exception {
-		System.out.println("Inside Pageobject");
-		loginPage = new LoginPage(webDriver);
-		loginPage.setUserName("s_bhagyalj");
-		loginPage.setPassword("Password1!");
-		loginPage.clickLogin();
+		
+		loginPageObject = new LoginPageObject(webDriver);
+		loginPageObject.setUserName("s_bhagyalj");
+		loginPageObject.setPassword("Password1!");
+		loginPageObject.clickLogin();
 		Thread.sleep(1000);
 		Assert.assertEquals("Citrix Education", webDriver.getTitle());
 	}
