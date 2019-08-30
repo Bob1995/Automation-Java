@@ -19,7 +19,7 @@ public class LoginPageFactory extends BaseClass {
 	WebElement loginButton_pageFactory;
 
 	public LoginPageFactory(WebDriver webDriver) {
-		this.webDriver=webDriver;
+		this.webDriver = webDriver;
 		PageFactory.initElements(webDriver, this);
 	}
 

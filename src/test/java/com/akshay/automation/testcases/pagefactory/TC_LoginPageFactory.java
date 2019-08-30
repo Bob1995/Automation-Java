@@ -16,7 +16,7 @@ public class TC_LoginPageFactory extends BaseClass {
 
 	@Test
 	public void tc03() throws Exception {
-		
+
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		webDriver.findElement(By.id("landingLogin")).click();
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -25,7 +25,7 @@ public class TC_LoginPageFactory extends BaseClass {
 
 	@Test
 	public void tc04() throws Exception {
-		
+
 		loginPageFactory = new LoginPageFactory(webDriver);
 		Thread.sleep(10000);
 		loginPageFactory.setUserName_pageFactory("s_bhagyalj");
@@ -35,5 +35,4 @@ public class TC_LoginPageFactory extends BaseClass {
 		Assert.assertEquals("Citrix Education", webDriver.getTitle());
 	}
 
-	
 }

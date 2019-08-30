@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.akshay.automation.setup.BaseClass">
-        <methods>
-          <include name="tearDown"/>
-          <include name="preSetUp"/>
-        </methods>
-      </class> <!-- com.akshay.automation.setup.BaseClass -->
-      <class name="com.akshay.automation.testcases.pagefactory.TC_LoginPageFactory">
-        <methods>
-          <include name="tc03"/>
-          <include name="tc04"/>
-        </methods>
-      </class> <!-- com.akshay.automation.testcases.pagefactory.TC_LoginPageFactory -->
       <class name="com.akshay.automation.testcases.pageobjects.TC_LoginPageObject">
         <methods>
           <include name="tc02"/>
-          <include name="tc01"/>
+          <include name="validateAfterClass"/>
+          <include name="tearDown"/>
+          <include name="preSetUp"/>
+          <include name="validateBeforeClass"/>
+          <include name="validateAfterMethod"/>
+          <include name="validateBeforeMethod"/>
         </methods>
       </class> <!-- com.akshay.automation.testcases.pageobjects.TC_LoginPageObject -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

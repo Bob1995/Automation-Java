@@ -12,12 +12,11 @@ import junit.framework.Assert;
 
 public class TC_LoginPageObject extends BaseClass {
 
-	private LoginPageObject loginPageObject ;
-
+	private LoginPageObject loginPageObject;
 	
 	@Test
 	public void tc01() throws Exception {
-		
+
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		webDriver.findElement(By.id("landingLogin")).click();
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -35,5 +34,4 @@ public class TC_LoginPageObject extends BaseClass {
 		Assert.assertEquals("Citrix Education", webDriver.getTitle());
 	}
 
-	
 }

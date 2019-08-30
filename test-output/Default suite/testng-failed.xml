@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.akshay.automation.testcases.TestCaseLoginPageObject">
+      <class name="com.akshay.automation.testcases.pageobjects.TC_LoginPageObject">
         <methods>
           <include name="tc02"/>
+          <include name="validateAfterClass"/>
           <include name="tearDown"/>
           <include name="preSetUp"/>
+          <include name="validateBeforeClass"/>
+          <include name="validateAfterMethod"/>
+          <include name="validateBeforeMethod"/>
         </methods>
-      </class> <!-- com.akshay.automation.testcases.TestCaseLoginPageObject -->
+      </class> <!-- com.akshay.automation.testcases.pageobjects.TC_LoginPageObject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
