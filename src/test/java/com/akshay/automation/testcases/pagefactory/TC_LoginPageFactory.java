@@ -3,12 +3,11 @@ package com.akshay.automation.testcases.pagefactory;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.akshay.automation.pagefactory.LoginPageFactory;
 import com.akshay.automation.setup.BaseClass;
-
-import junit.framework.Assert;
 
 public class TC_LoginPageFactory extends BaseClass {
 
@@ -33,6 +32,7 @@ public class TC_LoginPageFactory extends BaseClass {
 		loginPageFactory.clickLogin_pageFactory();
 		Thread.sleep(1000);
 		Assert.assertEquals("Citrix Education", webDriver.getTitle());
+		Assert.assertEquals(true, true);
 	}
 
 }
